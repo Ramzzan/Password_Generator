@@ -62,10 +62,12 @@
             this.generateGroup.Controls.Add(this.characterGroup);
             this.generateGroup.Controls.Add(this.lengthGroup);
             this.generateGroup.Controls.Add(this.txtBorder);
-            this.generateGroup.Font = new System.Drawing.Font("SF Pro Display", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.generateGroup.Location = new System.Drawing.Point(29, 28);
+            this.generateGroup.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.generateGroup.Location = new System.Drawing.Point(34, 34);
+            this.generateGroup.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.generateGroup.Name = "generateGroup";
-            this.generateGroup.Size = new System.Drawing.Size(384, 427);
+            this.generateGroup.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.generateGroup.Size = new System.Drawing.Size(504, 526);
             this.generateGroup.TabIndex = 0;
             this.generateGroup.TabStop = false;
             this.generateGroup.Text = "Password Generator";
@@ -75,9 +77,10 @@
             this.copyBox.BackColor = System.Drawing.SystemColors.Window;
             this.copyBox.Cursor = System.Windows.Forms.Cursors.Hand;
             this.copyBox.Image = global::Password_Generator.Properties.Resources.Copy;
-            this.copyBox.Location = new System.Drawing.Point(320, 67);
+            this.copyBox.Location = new System.Drawing.Point(462, 82);
+            this.copyBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.copyBox.Name = "copyBox";
-            this.copyBox.Size = new System.Drawing.Size(22, 22);
+            this.copyBox.Size = new System.Drawing.Size(26, 27);
             this.copyBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.copyBox.TabIndex = 2;
             this.copyBox.TabStop = false;
@@ -89,11 +92,12 @@
             this.txtPassword.BackColor = System.Drawing.SystemColors.Window;
             this.txtPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtPassword.Cursor = System.Windows.Forms.Cursors.Default;
-            this.txtPassword.Font = new System.Drawing.Font("SF Pro Display", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPassword.Location = new System.Drawing.Point(38, 67);
+            this.txtPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPassword.Location = new System.Drawing.Point(44, 82);
+            this.txtPassword.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.ReadOnly = true;
-            this.txtPassword.Size = new System.Drawing.Size(278, 23);
+            this.txtPassword.Size = new System.Drawing.Size(410, 27);
             this.txtPassword.TabIndex = 4;
             this.txtPassword.TabStop = false;
             this.txtPassword.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -103,9 +107,10 @@
             // strengthBar
             // 
             this.strengthBar.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.strengthBar.Location = new System.Drawing.Point(29, 98);
+            this.strengthBar.Location = new System.Drawing.Point(34, 121);
+            this.strengthBar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.strengthBar.Name = "strengthBar";
-            this.strengthBar.Size = new System.Drawing.Size(327, 2);
+            this.strengthBar.Size = new System.Drawing.Size(462, 2);
             this.strengthBar.TabIndex = 2;
             this.strengthBar.TabStop = false;
             this.strengthBar.Visible = false;
@@ -116,11 +121,12 @@
             this.btGenerate.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btGenerate.FlatAppearance.BorderSize = 0;
             this.btGenerate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btGenerate.Font = new System.Drawing.Font("SF Pro Display", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btGenerate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btGenerate.ForeColor = System.Drawing.SystemColors.Control;
-            this.btGenerate.Location = new System.Drawing.Point(29, 356);
+            this.btGenerate.Location = new System.Drawing.Point(34, 438);
+            this.btGenerate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btGenerate.Name = "btGenerate";
-            this.btGenerate.Size = new System.Drawing.Size(327, 44);
+            this.btGenerate.Size = new System.Drawing.Size(462, 54);
             this.btGenerate.TabIndex = 0;
             this.btGenerate.Text = "Generate";
             this.btGenerate.UseVisualStyleBackColor = false;
@@ -132,10 +138,12 @@
             this.characterGroup.Controls.Add(this.chNumbers);
             this.characterGroup.Controls.Add(this.chLowercase);
             this.characterGroup.Controls.Add(this.chUppercase);
-            this.characterGroup.Font = new System.Drawing.Font("SF Pro Display", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.characterGroup.Location = new System.Drawing.Point(29, 220);
+            this.characterGroup.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.characterGroup.Location = new System.Drawing.Point(34, 271);
+            this.characterGroup.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.characterGroup.Name = "characterGroup";
-            this.characterGroup.Size = new System.Drawing.Size(327, 120);
+            this.characterGroup.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.characterGroup.Size = new System.Drawing.Size(462, 148);
             this.characterGroup.TabIndex = 2;
             this.characterGroup.TabStop = false;
             this.characterGroup.Text = "Character type";
@@ -143,11 +151,10 @@
             // chSymbols
             // 
             this.chSymbols.AutoSize = true;
-            this.chSymbols.Checked = true;
-            this.chSymbols.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.chSymbols.Location = new System.Drawing.Point(186, 73);
+            this.chSymbols.Location = new System.Drawing.Point(217, 90);
+            this.chSymbols.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.chSymbols.Name = "chSymbols";
-            this.chSymbols.Size = new System.Drawing.Size(92, 23);
+            this.chSymbols.Size = new System.Drawing.Size(117, 29);
             this.chSymbols.TabIndex = 3;
             this.chSymbols.Text = "Symbols";
             this.chSymbols.UseVisualStyleBackColor = true;
@@ -157,9 +164,10 @@
             this.chNumbers.AutoSize = true;
             this.chNumbers.Checked = true;
             this.chNumbers.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.chNumbers.Location = new System.Drawing.Point(32, 73);
+            this.chNumbers.Location = new System.Drawing.Point(37, 90);
+            this.chNumbers.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.chNumbers.Name = "chNumbers";
-            this.chNumbers.Size = new System.Drawing.Size(95, 23);
+            this.chNumbers.Size = new System.Drawing.Size(120, 29);
             this.chNumbers.TabIndex = 2;
             this.chNumbers.Text = "Numbers";
             this.chNumbers.UseVisualStyleBackColor = true;
@@ -169,9 +177,10 @@
             this.chLowercase.AutoSize = true;
             this.chLowercase.Checked = true;
             this.chLowercase.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.chLowercase.Location = new System.Drawing.Point(186, 44);
+            this.chLowercase.Location = new System.Drawing.Point(217, 54);
+            this.chLowercase.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.chLowercase.Name = "chLowercase";
-            this.chLowercase.Size = new System.Drawing.Size(109, 23);
+            this.chLowercase.Size = new System.Drawing.Size(138, 29);
             this.chLowercase.TabIndex = 1;
             this.chLowercase.Text = "Lowercase";
             this.chLowercase.UseVisualStyleBackColor = true;
@@ -179,11 +188,10 @@
             // chUppercase
             // 
             this.chUppercase.AutoSize = true;
-            this.chUppercase.Checked = true;
-            this.chUppercase.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.chUppercase.Location = new System.Drawing.Point(32, 44);
+            this.chUppercase.Location = new System.Drawing.Point(37, 54);
+            this.chUppercase.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.chUppercase.Name = "chUppercase";
-            this.chUppercase.Size = new System.Drawing.Size(107, 23);
+            this.chUppercase.Size = new System.Drawing.Size(138, 29);
             this.chUppercase.TabIndex = 0;
             this.chUppercase.Text = "Uppercase";
             this.chUppercase.UseVisualStyleBackColor = true;
@@ -192,10 +200,12 @@
             // 
             this.lengthGroup.Controls.Add(this.lengthSlider);
             this.lengthGroup.Controls.Add(this.sliderValue);
-            this.lengthGroup.Font = new System.Drawing.Font("SF Pro Display", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lengthGroup.Location = new System.Drawing.Point(29, 118);
+            this.lengthGroup.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lengthGroup.Location = new System.Drawing.Point(34, 145);
+            this.lengthGroup.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.lengthGroup.Name = "lengthGroup";
-            this.lengthGroup.Size = new System.Drawing.Size(327, 96);
+            this.lengthGroup.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lengthGroup.Size = new System.Drawing.Size(462, 118);
             this.lengthGroup.TabIndex = 1;
             this.lengthGroup.TabStop = false;
             this.lengthGroup.Text = "Length";
@@ -204,34 +214,37 @@
             // 
             this.lengthSlider.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lengthSlider.LargeChange = 1;
-            this.lengthSlider.Location = new System.Drawing.Point(49, 41);
-            this.lengthSlider.Maximum = 16;
+            this.lengthSlider.Location = new System.Drawing.Point(57, 50);
+            this.lengthSlider.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lengthSlider.Maximum = 24;
             this.lengthSlider.Minimum = 4;
             this.lengthSlider.Name = "lengthSlider";
-            this.lengthSlider.Size = new System.Drawing.Size(260, 45);
+            this.lengthSlider.Size = new System.Drawing.Size(397, 56);
             this.lengthSlider.TabIndex = 0;
-            this.lengthSlider.Value = 4;
+            this.lengthSlider.Value = 24;
             this.lengthSlider.Scroll += new System.EventHandler(this.lengthSlider_Scroll);
             // 
             // sliderValue
             // 
             this.sliderValue.AutoSize = true;
-            this.sliderValue.Font = new System.Drawing.Font("SF Pro Display", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sliderValue.Location = new System.Drawing.Point(22, 41);
+            this.sliderValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.sliderValue.Location = new System.Drawing.Point(8, 50);
+            this.sliderValue.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.sliderValue.Name = "sliderValue";
-            this.sliderValue.Size = new System.Drawing.Size(25, 25);
+            this.sliderValue.Size = new System.Drawing.Size(44, 31);
             this.sliderValue.TabIndex = 0;
-            this.sliderValue.Text = "4";
+            this.sliderValue.Text = "25";
             // 
             // txtBorder
             // 
             this.txtBorder.BackColor = System.Drawing.SystemColors.Window;
             this.txtBorder.Cursor = System.Windows.Forms.Cursors.Default;
-            this.txtBorder.Font = new System.Drawing.Font("SF Pro Display", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBorder.Location = new System.Drawing.Point(29, 58);
+            this.txtBorder.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBorder.Location = new System.Drawing.Point(34, 71);
+            this.txtBorder.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtBorder.Name = "txtBorder";
             this.txtBorder.ReadOnly = true;
-            this.txtBorder.Size = new System.Drawing.Size(327, 40);
+            this.txtBorder.Size = new System.Drawing.Size(462, 46);
             this.txtBorder.TabIndex = 0;
             this.txtBorder.TabStop = false;
             this.txtBorder.MouseDown += new System.Windows.Forms.MouseEventHandler(this.txtBorder_MouseDown);
@@ -240,23 +253,25 @@
             // 
             this.backgroundIllustration.BackColor = System.Drawing.Color.Transparent;
             this.backgroundIllustration.Image = global::Password_Generator.Properties.Resources.Vector;
-            this.backgroundIllustration.Location = new System.Drawing.Point(410, 72);
+            this.backgroundIllustration.Location = new System.Drawing.Point(557, 89);
+            this.backgroundIllustration.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.backgroundIllustration.Name = "backgroundIllustration";
-            this.backgroundIllustration.Size = new System.Drawing.Size(362, 339);
+            this.backgroundIllustration.Size = new System.Drawing.Size(343, 417);
             this.backgroundIllustration.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.backgroundIllustration.TabIndex = 1;
             this.backgroundIllustration.TabStop = false;
             // 
             // PasswordGeneratorUI
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(775, 483);
+            this.ClientSize = new System.Drawing.Size(904, 594);
             this.Controls.Add(this.generateGroup);
             this.Controls.Add(this.backgroundIllustration);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.Name = "PasswordGeneratorUI";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

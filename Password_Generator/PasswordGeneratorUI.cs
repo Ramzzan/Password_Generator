@@ -141,6 +141,18 @@ namespace Password_Generator
                     strengthBar.BackColor = Color.DeepSkyBlue;
                     strengthBar.Size = new Size(327, 2);
                 }
+                else if (lengthSlider.Value >= 17 && lengthSlider.Value <= 20)
+                {
+                    strengthBar.Visible = true;
+                    strengthBar.BackColor = Color.DeepSkyBlue;
+                    strengthBar.Size = new Size(350, 2);
+                }
+                else if (lengthSlider.Value >= 21 )
+                {
+                    strengthBar.Visible = true;
+                    strengthBar.BackColor = Color.DeepSkyBlue;
+                    strengthBar.Size = new Size(375, 2);
+                }
             }
         }
     }
